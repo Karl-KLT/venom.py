@@ -30,4 +30,4 @@ class units:
     def downloadUnits(self,unit):
         unitName = self.getTool(unit)
         deviceName = menu().getOneType(self.index)
-        downloader(unitName,deviceName,path)
+        downloader(unitName,deviceName,self.path)
