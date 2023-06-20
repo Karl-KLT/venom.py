@@ -5,9 +5,9 @@ class downloader:
         self.unitName = unitName
         self.deviceName = deviceName
         self.path = path+"/units"
+        self.downloader()
 
-
-    def downloder(self):
+    def downloader(self):
         # ///////////////////////////////////////////////////////////
         if self.deviceName == "kali" :
             # ////////////////////////////
